@@ -1,0 +1,1 @@
+C:\Users\danie\source\repos\WeatherStation\WeatherStation\WeatherStation.csproj;x86
