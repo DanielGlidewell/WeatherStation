@@ -10,82 +10,112 @@
     <PackageArchitecture>arm</PackageArchitecture>
     <PackageIdentityName>cb624457-2846-4b00-90b4-9464c0841675</PackageIdentityName>
     <PackageIdentityPublisher>CN=danie</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\danie\source\repos\WeatherStation\WeatherStation\obj\ARM\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\danie\OneDrive\Documents\GitHub\WeatherStation\WeatherStation\obj\ARM\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType></RemoteDeploymentType>
     <PackageRegistrationPath></PackageRegistrationPath>
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>C:\Users\danie\source\repos\WeatherStation\WeatherStation\bin\ARM\Debug\AppX</LayoutDir>
+    <LayoutDir>C:\Users\danie\OneDrive\Documents\GitHub\WeatherStation\WeatherStation\bin\ARM\Debug\AppX</LayoutDir>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\danie\source\repos\WeatherStation\WeatherStation\bin\ARM\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\danie\OneDrive\Documents\GitHub\WeatherStation\WeatherStation\bin\ARM\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\danie\source\repos\WeatherStation\WeatherStation\bin\ARM\Debug\WeatherStation.exe">
+    <AppxPackagedFile Include="C:\Users\danie\OneDrive\Documents\GitHub\WeatherStation\WeatherStation\bin\ARM\Debug\WeatherStation.exe">
       <PackagePath>entrypoint\WeatherStation.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\danie\.nuget\packages\microsoft.azure.amqp\2.3.5\lib\uap10.0\Microsoft.Azure.Amqp.dll">
+      <PackagePath>Microsoft.Azure.Amqp.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\danie\.nuget\packages\microsoft.azure.eventhubs\2.2.1\lib\netstandard2.0\Microsoft.Azure.EventHubs.dll">
+      <PackagePath>Microsoft.Azure.EventHubs.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\danie\.nuget\packages\microsoft.azure.services.appauthentication\1.0.3\lib\netstandard1.4\Microsoft.Azure.Services.AppAuthentication.dll">
+      <PackagePath>Microsoft.Azure.Services.AppAuthentication.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\danie\.nuget\packages\microsoft.identitymodel.clients.activedirectory\3.19.8\lib\netcore45\Microsoft.IdentityModel.Clients.ActiveDirectory.Platform.dll">
+      <PackagePath>Microsoft.IdentityModel.Clients.ActiveDirectory.Platform.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\danie\.nuget\packages\microsoft.identitymodel.clients.activedirectory\3.19.8\lib\netcore45\Microsoft.IdentityModel.Clients.ActiveDirectory.dll">
+      <PackagePath>Microsoft.IdentityModel.Clients.ActiveDirectory.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\danie\.nuget\packages\microsoft.identitymodel.jsonwebtokens\5.2.4\lib\netstandard1.4\Microsoft.IdentityModel.JsonWebTokens.dll">
+      <PackagePath>Microsoft.IdentityModel.JsonWebTokens.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\danie\.nuget\packages\microsoft.identitymodel.logging\5.2.4\lib\netstandard1.4\Microsoft.IdentityModel.Logging.dll">
+      <PackagePath>Microsoft.IdentityModel.Logging.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\danie\.nuget\packages\microsoft.identitymodel.tokens\5.2.4\lib\netstandard1.4\Microsoft.IdentityModel.Tokens.dll">
+      <PackagePath>Microsoft.IdentityModel.Tokens.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\danie\.nuget\packages\newtonsoft.json\12.0.1\lib\netstandard2.0\Newtonsoft.Json.dll">
+      <PackagePath>Newtonsoft.Json.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.netcore.universalwindowsplatform\6.2.3\runtimes\win10-arm\lib\uap10.0.15138\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\danie\source\repos\WeatherStation\BoschDevices\bin\ARM\Debug\BoschDevices.dll">
+    <AppxPackagedFile Include="C:\Users\danie\.nuget\packages\system.identitymodel.tokens.jwt\5.2.4\lib\netstandard1.4\System.IdentityModel.Tokens.Jwt.dll">
+      <PackagePath>System.IdentityModel.Tokens.Jwt.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\danie\OneDrive\Documents\GitHub\WeatherStation\BoschDevices\bin\ARM\Debug\BoschDevices.dll">
       <PackagePath>BoschDevices.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\danie\source\repos\WeatherStation\BoschDevices\bin\ARM\Debug\I2cDeviceHelpers.dll">
+    <AppxPackagedFile Include="C:\Users\danie\OneDrive\Documents\GitHub\WeatherStation\BoschDevices\bin\ARM\Debug\I2cDeviceHelpers.dll">
       <PackagePath>I2cDeviceHelpers.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\bin\10.0.17763.0\XamlCompiler\Microsoft.UI.Xaml.Markup.winmd">
       <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\danie\source\repos\WeatherStation\WeatherStation\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="C:\Users\danie\OneDrive\Documents\GitHub\WeatherStation\WeatherStation\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\danie\source\repos\WeatherStation\WeatherStation\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\danie\OneDrive\Documents\GitHub\WeatherStation\WeatherStation\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\danie\source\repos\WeatherStation\WeatherStation\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\danie\OneDrive\Documents\GitHub\WeatherStation\WeatherStation\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\danie\source\repos\WeatherStation\WeatherStation\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\danie\OneDrive\Documents\GitHub\WeatherStation\WeatherStation\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\danie\source\repos\WeatherStation\WeatherStation\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\danie\OneDrive\Documents\GitHub\WeatherStation\WeatherStation\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\danie\source\repos\WeatherStation\WeatherStation\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="C:\Users\danie\OneDrive\Documents\GitHub\WeatherStation\WeatherStation\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\danie\source\repos\WeatherStation\WeatherStation\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="C:\Users\danie\OneDrive\Documents\GitHub\WeatherStation\WeatherStation\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\danie\source\repos\WeatherStation\WeatherStation\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\danie\OneDrive\Documents\GitHub\WeatherStation\WeatherStation\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\danie\source\repos\WeatherStation\WeatherStation\bin\ARM\Debug\WeatherStation.xr.xml">
+    <AppxPackagedFile Include="C:\Users\danie\OneDrive\Documents\GitHub\WeatherStation\WeatherStation\bin\ARM\Debug\WeatherStation.xr.xml">
       <PackagePath>WeatherStation.xr.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\danie\source\repos\WeatherStation\WeatherStation\bin\ARM\Debug\App.xbf">
+    <AppxPackagedFile Include="C:\Users\danie\OneDrive\Documents\GitHub\WeatherStation\WeatherStation\bin\ARM\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\danie\source\repos\WeatherStation\WeatherStation\bin\ARM\Debug\MainPage.xbf">
+    <AppxPackagedFile Include="C:\Users\danie\OneDrive\Documents\GitHub\WeatherStation\WeatherStation\bin\ARM\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.17763.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\danie\source\repos\WeatherStation\WeatherStation\bin\ARM\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\danie\OneDrive\Documents\GitHub\WeatherStation\WeatherStation\bin\ARM\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\danie\source\repos\WeatherStation\WeatherStation\bin\ARM\Debug\Core\WeatherStation.exe">
+    <AppxPackagedFile Include="C:\Users\danie\OneDrive\Documents\GitHub\WeatherStation\WeatherStation\bin\ARM\Debug\Core\WeatherStation.exe">
       <PackagePath>WeatherStation.exe</PackagePath>
     </AppxPackagedFile>
   </ItemGroup>

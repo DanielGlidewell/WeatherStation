@@ -11,10 +11,14 @@ namespace WeatherStation
 {
     public sealed partial class MainPage : Page
     {
-        private BME280Sensor BME280;
-        private DispatcherTimer timer;
-        private const float LocalSeaLevelPressure = 1022.00f;
-        private const int timerInterval = 2000;
+        // Configurables - ensure these are set appropriately!
+        private const string _eventHubConnectionString = "";    // Set this to the connection string for your Event Hub in Azure (Shared Access Policy - Read & Listen)
+        private const float _localSeaLevelPressure = 1022.00f;  // Used by the BME280 when taking measurements
+        private const int _timerInterval = 2000;                // Determines how often a measurement will be taken
+
+        private BME280Sensor _BME280;
+        private DispatcherTimer _timer;
+        private WeatherDataSender _weatherDataSender;
 
         public MainPage()
         {
@@ -25,49 +29,62 @@ namespace WeatherStation
         protected override async void OnNavigatedTo(NavigationEventArgs navArgs)
         {
             try
-            {                   
-                BME280 = new BME280Sensor(LocalSeaLevelPressure);   // Create a new object for our sensor class
-                await BME280.InitializeDevice();    // Initialize the sensor
+            {                
+                _BME280 = new BME280Sensor(_localSeaLevelPressure); // Create a new object for our sensor class
+                await _BME280.InitializeDevice();                   // Initialize the sensor
 
-                if (BME280.init)
+                if (_BME280.init)
                 {
-                    timer = new DispatcherTimer
+                    // If all goes well, our BME280 is initialized and we can set up
+                    // a timer which will take a reading and send data to the cloud
+                    _weatherDataSender = new WeatherDataSender(_eventHubConnectionString);
+                    _timer = new DispatcherTimer
                     {
-                        Interval = TimeSpan.FromMilliseconds(timerInterval)
+                        Interval = TimeSpan.FromMilliseconds(_timerInterval)
                     };
-                    timer.Tick += TakeReading;
-                    timer.Start();
+                    _timer.Tick += TakeReadingAsync;
+                    _timer.Start();
                 }
             }
             catch (Exception ex)
             {
-                Console.WriteLine(ex.Message);
+                Debug.WriteLine(ex.Message);
             }
         }
 
-        private async void TakeReading(object sender, object e)
+        private async void TakeReadingAsync(object sender, object e)
         {
             // Create variables to store the sensor data: temperature, pressure, humidity and altitude. 
-            var temp = new List<float>();
-            var pressure = new List<float>();
-            var altitude = new List<float>();
-            var humidity = new List<float>();
+            var temperatureReadings = new List<float>();
+            var pressureReadings = new List<float>();
+            var altitudeReadings = new List<float>();
+            var humidityReadings = new List<float>();
             
             // Read 10 samples of the data
             for (int i = 0; i < 10; i++)
             {
-                temp.Add(await BME280.ReadTemperature());
-                pressure.Add(await BME280.ReadPressure());
-                altitude.Add(await BME280.ReadAltitude());
-                humidity.Add(await BME280.ReadHumidity());
+                temperatureReadings.Add(await _BME280.ReadTemperature());
+                pressureReadings.Add(await _BME280.ReadPressure());
+                altitudeReadings.Add(await _BME280.ReadAltitude());
+                humidityReadings.Add(await _BME280.ReadHumidity());
             }
-            
-            // Write the average of the sampled values to your console
-            Debug.WriteLine($"Temperature: {temp.Average()} deg C");
-            Debug.WriteLine($"Humidity: {humidity.Average()} %");
-            Debug.WriteLine($"Pressure: {pressure.Average()} Pa");
-            Debug.WriteLine($"Altitude: {altitude.Average()} m");
-            Debug.WriteLine("");                    
+
+            // Create a WeatherData object which will hold the 
+            // average of the 10 samples for each attribute.
+            WeatherData weatherReading = new WeatherData
+            {
+                RecordingTime = DateTime.Now.ToUniversalTime(),
+                Temperature = temperatureReadings.Average(),
+                Humidity = humidityReadings.Average(),
+                Pressure = pressureReadings.Average(),
+                Altitude = altitudeReadings.Average()
+            };
+
+            // Send to console for debugging purposes
+            Debug.WriteLine(weatherReading.ToString());
+
+            // Send the reading to the event hub
+            await _weatherDataSender.SendDataAsync(weatherReading);
         }
     }
 }

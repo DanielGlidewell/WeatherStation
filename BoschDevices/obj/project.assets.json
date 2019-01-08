@@ -8252,11 +8252,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\danie\\source\\repos\\WeatherStation\\BoschDevices\\BoschDevices.csproj",
+      "projectUniqueName": "C:\\Users\\danie\\OneDrive\\Documents\\GitHub\\WeatherStation\\BoschDevices\\BoschDevices.csproj",
       "projectName": "BoschDevices",
-      "projectPath": "C:\\Users\\danie\\source\\repos\\WeatherStation\\BoschDevices\\BoschDevices.csproj",
+      "projectPath": "C:\\Users\\danie\\OneDrive\\Documents\\GitHub\\WeatherStation\\BoschDevices\\BoschDevices.csproj",
       "packagesPath": "C:\\Users\\danie\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\danie\\source\\repos\\WeatherStation\\BoschDevices\\obj\\",
+      "outputPath": "C:\\Users\\danie\\OneDrive\\Documents\\GitHub\\WeatherStation\\BoschDevices\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -8276,8 +8276,8 @@
       "frameworks": {
         "uap10.0.17763": {
           "projectReferences": {
-            "C:\\Users\\danie\\source\\repos\\WeatherStation\\I2cDeviceHelpers\\I2cDeviceHelpers.csproj": {
-              "projectPath": "C:\\Users\\danie\\source\\repos\\WeatherStation\\I2cDeviceHelpers\\I2cDeviceHelpers.csproj"
+            "C:\\Users\\danie\\OneDrive\\Documents\\GitHub\\WeatherStation\\I2cDeviceHelpers\\I2cDeviceHelpers.csproj": {
+              "projectPath": "C:\\Users\\danie\\OneDrive\\Documents\\GitHub\\WeatherStation\\I2cDeviceHelpers\\I2cDeviceHelpers.csproj"
             }
           }
         }

@@ -1,3 +1,3 @@
-C:\Users\danie\source\repos\WeatherStation\BoschDevices\BoschDevices.csproj;arm
-C:\Users\danie\source\repos\WeatherStation\I2cDeviceHelpers\I2cDeviceHelpers.csproj;arm
-C:\Users\danie\source\repos\WeatherStation\WeatherStation\WeatherStation.csproj;arm
+C:\Users\danie\OneDrive\Documents\GitHub\WeatherStation\BoschDevices\BoschDevices.csproj;arm
+C:\Users\danie\OneDrive\Documents\GitHub\WeatherStation\I2cDeviceHelpers\I2cDeviceHelpers.csproj;arm
+C:\Users\danie\OneDrive\Documents\GitHub\WeatherStation\WeatherStation\WeatherStation.csproj;arm
