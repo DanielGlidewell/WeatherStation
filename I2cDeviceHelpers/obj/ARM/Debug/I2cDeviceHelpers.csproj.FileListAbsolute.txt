@@ -26,7 +26,6 @@ C:\Users\danie\OneDrive\Documents\GitHub\WeatherStation\I2cDeviceHelpers\bin\ARM
 C:\Users\danie\OneDrive\Documents\GitHub\WeatherStation\I2cDeviceHelpers\bin\ARM\Debug\I2cDeviceHelpers.pdb
 C:\Users\danie\OneDrive\Documents\GitHub\WeatherStation\I2cDeviceHelpers\bin\ARM\Debug\I2cDeviceHelpers.pri
 C:\Users\danie\OneDrive\Documents\GitHub\WeatherStation\I2cDeviceHelpers\bin\ARM\Debug\Microsoft.UI.Xaml.Markup.winmd
-C:\Users\danie\OneDrive\Documents\GitHub\WeatherStation\I2cDeviceHelpers\obj\ARM\Debug\I2cDeviceHelpers.csprojAssemblyReference.cache
 C:\Users\danie\OneDrive\Documents\GitHub\WeatherStation\I2cDeviceHelpers\obj\ARM\Debug\I2cDeviceHelpers.csproj.CoreCompileInputs.cache
 C:\Users\danie\OneDrive\Documents\GitHub\WeatherStation\I2cDeviceHelpers\obj\ARM\Debug\I2cDeviceHelpers.csproj.CopyComplete
 C:\Users\danie\OneDrive\Documents\GitHub\WeatherStation\I2cDeviceHelpers\obj\ARM\Debug\I2cDeviceHelpers.dll
