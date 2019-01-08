@@ -12,6 +12,6 @@ The weather station is designed to sample environmental parameters such as Tempe
 * Azure Event Hubs
 
 ## Sources
-https://www.youtube.com/watch?v=A-kazyOiBvs&t=1s
-https://www.hackster.io/windows-iot/weather-station-v-2-0-8abe16
-https://app.pluralsight.com/library/courses/azure-event-hubs-dotnet-developers-fundamentals/table-of-contents
+* https://www.youtube.com/watch?v=A-kazyOiBvs&t=1s
+* https://www.hackster.io/windows-iot/weather-station-v-2-0-8abe16
+* https://app.pluralsight.com/library/courses/azure-event-hubs-dotnet-developers-fundamentals/table-of-contents
