@@ -12,7 +12,7 @@ namespace WeatherStation
     public sealed partial class MainPage : Page
     {
         // Configurables - ensure these are set appropriately!
-        private const string _eventHubConnectionString = "Endpoint=sb://turbospudweather.servicebus.windows.net/;SharedAccessKeyName=SendAndListenPolicy;SharedAccessKey=e8NWK4eZDatOqDvHkKMyGKmoXqZqYpNhryN97CPB8Jg=;EntityPath=weatherstation";    // Set this to the connection string for your Event Hub in Azure (Shared Access Policy - Read & Listen)
+        private const string _eventHubConnectionString = "";    // Set this to the connection string for your Event Hub in Azure (Shared Access Policy - Read & Listen)
         private const float _localSeaLevelPressure = 1022.00f;  // Used by the BME280 when taking measurements
         private const int _timerInterval = 2000;                // Determines how often a measurement will be taken
 
