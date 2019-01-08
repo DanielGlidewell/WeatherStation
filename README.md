@@ -1,8 +1,8 @@
-# WeatherStation
+# Personal Weather Station
 Raspberry Pi 3 Model B v1.2 + BME280 + Windows IoT Core + UWP &amp; C#
 
 ## Overview
-The goal of this project is to get acquainted with Microsoft's IoT ecosystem, and is essentially an amalgamation of the things I've learned from various sources around the internet on the subject. I took the things that I liked from other projects, and modified where necessary until I was happy with the outcome. See the sources below for links to the hard work others did so that I could learn. 
+The goal of this project is to get acquainted with Microsoft's IoT ecosystem, and is essentially an amalgamation of the things I've learned from various sources around the Internet on the subject. I took the things that I liked from other projects, and modified where necessary until I was happy with the outcome. See the sources below for links to the hard work others did so that I could learn. 
 
 The weather station is designed to sample environmental parameters such as Temperature, Humidity, Pressure, and Altitude and send that data directly to the Azure cloud. Technologies utilized include:
 * Raspberry Pi 3 Model B v1.2
