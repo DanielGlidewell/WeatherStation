@@ -8,7 +8,7 @@ The weather station is designed to sample environmental parameters - temperature
 
 ## Technologies
 * Raspberry Pi 3 Model B v1.2
-* BME280 (Found at adafruit.com)
+* BME280 (Found at https://www.adafruit.com)
 * Windows IoT Core
 * C# - Universal Windows Platform
 * Azure Event Hubs
