@@ -123,8 +123,7 @@
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="WeatherData.cs" />
-    <Compile Include="WeatherDataSender.cs" />
+    <Compile Include="Model\WeatherData.cs" />
   </ItemGroup>
   <ItemGroup>
     <AppxManifest Include="Package.appxmanifest">
@@ -167,6 +166,10 @@
     <ProjectReference Include="..\BoschDevices\BoschDevices.csproj">
       <Project>{2fb00b10-79b4-4555-af7b-157c868ab8e9}</Project>
       <Name>BoschDevices</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\EventHubHelpers\EventHubHelpers.csproj">
+      <Project>{caf5dc9e-e005-4643-85b2-8812a9dfbd5b}</Project>
+      <Name>EventHubHelpers</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">

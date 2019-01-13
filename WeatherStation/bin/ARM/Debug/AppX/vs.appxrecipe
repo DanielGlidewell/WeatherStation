@@ -30,13 +30,13 @@
     <AppXManifest Include="C:\Users\danie\OneDrive\Documents\GitHub\WeatherStation\WeatherStation\bin\ARM\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-01-08T16:43:43.374</Modified>
+      <Modified>2019-01-13T16:18:05.462</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\danie\OneDrive\Documents\GitHub\WeatherStation\WeatherStation\bin\ARM\Debug\WeatherStation.exe">
       <PackagePath>entrypoint\WeatherStation.exe</PackagePath>
-      <Modified>2019-01-08T16:43:41.815</Modified>
+      <Modified>2019-01-13T16:18:03.928</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\danie\.nuget\packages\microsoft.azure.amqp\2.3.5\lib\uap10.0\Microsoft.Azure.Amqp.dll">
       <PackagePath>Microsoft.Azure.Amqp.dll</PackagePath>
@@ -84,11 +84,15 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\danie\OneDrive\Documents\GitHub\WeatherStation\BoschDevices\bin\ARM\Debug\BoschDevices.dll">
       <PackagePath>BoschDevices.dll</PackagePath>
-      <Modified>2019-01-08T15:29:09.171</Modified>
+      <Modified>2019-01-13T15:46:37.871</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\danie\OneDrive\Documents\GitHub\WeatherStation\EventHubHelpers\bin\ARM\Debug\EventHubHelpers.dll">
+      <PackagePath>EventHubHelpers.dll</PackagePath>
+      <Modified>2019-01-13T16:17:56.873</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\danie\OneDrive\Documents\GitHub\WeatherStation\BoschDevices\bin\ARM\Debug\I2cDeviceHelpers.dll">
       <PackagePath>I2cDeviceHelpers.dll</PackagePath>
-      <Modified>2019-01-08T15:29:07.903</Modified>
+      <Modified>2019-01-13T15:46:36.559</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\bin\10.0.17763.0\XamlCompiler\Microsoft.UI.Xaml.Markup.winmd">
       <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
@@ -138,11 +142,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\danie\OneDrive\Documents\GitHub\WeatherStation\WeatherStation\bin\ARM\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2019-01-08T16:43:41.561</Modified>
+      <Modified>2019-01-13T16:18:03.740</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\danie\OneDrive\Documents\GitHub\WeatherStation\WeatherStation\bin\ARM\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2019-01-08T16:43:41.562</Modified>
+      <Modified>2019-01-13T16:18:03.740</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.17763.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -150,11 +154,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\danie\OneDrive\Documents\GitHub\WeatherStation\WeatherStation\bin\ARM\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2019-01-08T16:35:57.085</Modified>
+      <Modified>2019-01-13T15:46:44.809</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\danie\OneDrive\Documents\GitHub\WeatherStation\WeatherStation\bin\ARM\Debug\Core\WeatherStation.exe">
       <PackagePath>WeatherStation.exe</PackagePath>
-      <Modified>2019-01-08T16:43:43.367</Modified>
+      <Modified>2019-01-13T16:18:05.455</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

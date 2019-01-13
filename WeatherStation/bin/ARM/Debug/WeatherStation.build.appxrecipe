@@ -64,6 +64,9 @@
     <AppxPackagedFile Include="C:\Users\danie\OneDrive\Documents\GitHub\WeatherStation\BoschDevices\bin\ARM\Debug\BoschDevices.dll">
       <PackagePath>BoschDevices.dll</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\danie\OneDrive\Documents\GitHub\WeatherStation\EventHubHelpers\bin\ARM\Debug\EventHubHelpers.dll">
+      <PackagePath>EventHubHelpers.dll</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\danie\OneDrive\Documents\GitHub\WeatherStation\BoschDevices\bin\ARM\Debug\I2cDeviceHelpers.dll">
       <PackagePath>I2cDeviceHelpers.dll</PackagePath>
     </AppxPackagedFile>

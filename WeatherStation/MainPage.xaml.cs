@@ -6,6 +6,7 @@ using Windows.UI.Xaml.Navigation;
 using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml;
 using BoschDevices;
+using EventHubHelpers;
 
 namespace WeatherStation
 {
@@ -18,7 +19,7 @@ namespace WeatherStation
 
         private BME280Sensor _BME280;
         private DispatcherTimer _timer;
-        private WeatherDataSender _weatherDataSender;
+        private EventHubDataSender _weatherDataSender;
 
         public MainPage()
         {
@@ -37,12 +38,12 @@ namespace WeatherStation
                 {
                     // If all goes well, our BME280 is initialized and we can set up
                     // a timer which will take a reading and send data to the cloud
-                    _weatherDataSender = new WeatherDataSender(_eventHubConnectionString);
+                    _weatherDataSender = new EventHubDataSender(_eventHubConnectionString);
                     _timer = new DispatcherTimer
                     {
                         Interval = TimeSpan.FromMilliseconds(_timerInterval)
                     };
-                    _timer.Tick += TakeReadingAsync;
+                    _timer.Tick += TakeReadingAsync; // Register this method to the dispatcher so that it is called every tick
                     _timer.Start();
                 }
             }
@@ -84,7 +85,7 @@ namespace WeatherStation
             Debug.WriteLine(weatherReading.ToString());
 
             // Send the reading to the event hub
-            await _weatherDataSender.SendDataAsync(weatherReading);
+            await _weatherDataSender.SendDataJsonUtf8Async(weatherReading);
         }
     }
 }

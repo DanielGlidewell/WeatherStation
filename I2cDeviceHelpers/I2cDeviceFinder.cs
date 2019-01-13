@@ -26,7 +26,6 @@ namespace I2cDeviceHelpers
                 BusSpeed = I2cBusSpeed.FastMode // Set the I2C bus speed of connection to fast mode
             };
             
-
             // Use the device we found earlier and the connectionSettings together 
             // to return an I2cDevice at the slaveAddress provided
             return await I2cDevice.FromIdAsync(devicesFound[0].Id, connectionSettings);

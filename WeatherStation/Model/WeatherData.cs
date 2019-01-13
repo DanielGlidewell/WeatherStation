@@ -17,7 +17,7 @@ namespace WeatherStation
                  + $"Temperature: {Temperature} | "
                  + $"Altitude: {Altitude} | "
                  + $"Pressure: {Pressure} | "
-                 + $"Humidity: {Humidity} | ";
+                 + $"Humidity: {Humidity}";
         }   
     }
 }

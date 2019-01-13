@@ -116,3 +116,6 @@ C:\Users\danie\OneDrive\Documents\GitHub\WeatherStation\WeatherStation\bin\ARM\D
 C:\Users\danie\OneDrive\Documents\GitHub\WeatherStation\WeatherStation\bin\ARM\Debug\System.IdentityModel.Tokens.Jwt.dll
 C:\Users\danie\OneDrive\Documents\GitHub\WeatherStation\WeatherStation\bin\ARM\Debug\System.IdentityModel.Tokens.Jwt.pdb
 C:\Users\danie\OneDrive\Documents\GitHub\WeatherStation\WeatherStation\obj\ARM\Debug\Microsoft.Azure.Amqp.pri.xml
+C:\Users\danie\OneDrive\Documents\GitHub\WeatherStation\WeatherStation\bin\ARM\Debug\EventHubHelpers.dll
+C:\Users\danie\OneDrive\Documents\GitHub\WeatherStation\WeatherStation\bin\ARM\Debug\EventHubHelpers.pdb
+C:\Users\danie\OneDrive\Documents\GitHub\WeatherStation\WeatherStation\bin\ARM\Debug\EventHubHelpers.pri

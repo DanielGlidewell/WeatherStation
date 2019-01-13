@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "I2cDeviceHelpers", "I2cDevi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BoschDevices", "BoschDevices\BoschDevices.csproj", "{2FB00B10-79B4-4555-AF7B-157C868AB8E9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventHubHelpers", "EventHubHelpers\EventHubHelpers.csproj", "{CAF5DC9E-E005-4643-85B2-8812A9DFBD5B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -90,6 +92,26 @@ Global
 		{2FB00B10-79B4-4555-AF7B-157C868AB8E9}.Release|x64.Build.0 = Release|x64
 		{2FB00B10-79B4-4555-AF7B-157C868AB8E9}.Release|x86.ActiveCfg = Release|x86
 		{2FB00B10-79B4-4555-AF7B-157C868AB8E9}.Release|x86.Build.0 = Release|x86
+		{CAF5DC9E-E005-4643-85B2-8812A9DFBD5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CAF5DC9E-E005-4643-85B2-8812A9DFBD5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CAF5DC9E-E005-4643-85B2-8812A9DFBD5B}.Debug|ARM.ActiveCfg = Debug|ARM
+		{CAF5DC9E-E005-4643-85B2-8812A9DFBD5B}.Debug|ARM.Build.0 = Debug|ARM
+		{CAF5DC9E-E005-4643-85B2-8812A9DFBD5B}.Debug|ARM64.ActiveCfg = Debug|ARM64
+		{CAF5DC9E-E005-4643-85B2-8812A9DFBD5B}.Debug|ARM64.Build.0 = Debug|ARM64
+		{CAF5DC9E-E005-4643-85B2-8812A9DFBD5B}.Debug|x64.ActiveCfg = Debug|x64
+		{CAF5DC9E-E005-4643-85B2-8812A9DFBD5B}.Debug|x64.Build.0 = Debug|x64
+		{CAF5DC9E-E005-4643-85B2-8812A9DFBD5B}.Debug|x86.ActiveCfg = Debug|x86
+		{CAF5DC9E-E005-4643-85B2-8812A9DFBD5B}.Debug|x86.Build.0 = Debug|x86
+		{CAF5DC9E-E005-4643-85B2-8812A9DFBD5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CAF5DC9E-E005-4643-85B2-8812A9DFBD5B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CAF5DC9E-E005-4643-85B2-8812A9DFBD5B}.Release|ARM.ActiveCfg = Release|ARM
+		{CAF5DC9E-E005-4643-85B2-8812A9DFBD5B}.Release|ARM.Build.0 = Release|ARM
+		{CAF5DC9E-E005-4643-85B2-8812A9DFBD5B}.Release|ARM64.ActiveCfg = Release|ARM64
+		{CAF5DC9E-E005-4643-85B2-8812A9DFBD5B}.Release|ARM64.Build.0 = Release|ARM64
+		{CAF5DC9E-E005-4643-85B2-8812A9DFBD5B}.Release|x64.ActiveCfg = Release|x64
+		{CAF5DC9E-E005-4643-85B2-8812A9DFBD5B}.Release|x64.Build.0 = Release|x64
+		{CAF5DC9E-E005-4643-85B2-8812A9DFBD5B}.Release|x86.ActiveCfg = Release|x86
+		{CAF5DC9E-E005-4643-85B2-8812A9DFBD5B}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

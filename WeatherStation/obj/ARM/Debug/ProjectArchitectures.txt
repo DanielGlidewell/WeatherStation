@@ -1,3 +1,4 @@
 C:\Users\danie\OneDrive\Documents\GitHub\WeatherStation\BoschDevices\BoschDevices.csproj;arm
+C:\Users\danie\OneDrive\Documents\GitHub\WeatherStation\EventHubHelpers\EventHubHelpers.csproj;arm
 C:\Users\danie\OneDrive\Documents\GitHub\WeatherStation\I2cDeviceHelpers\I2cDeviceHelpers.csproj;arm
 C:\Users\danie\OneDrive\Documents\GitHub\WeatherStation\WeatherStation\WeatherStation.csproj;arm

@@ -1633,6 +1633,21 @@
           "bin/placeholder/BoschDevices.dll": {}
         }
       },
+      "EventHubHelpers/1.0.0": {
+        "type": "project",
+        "framework": "UAP,Version=v10.0.17763",
+        "dependencies": {
+          "Microsoft.Azure.EventHubs": "2.2.1",
+          "Microsoft.NETCore.UniversalWindowsPlatform": "6.2.3",
+          "Newtonsoft.Json": "12.0.1"
+        },
+        "compile": {
+          "bin/placeholder/EventHubHelpers.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/EventHubHelpers.dll": {}
+        }
+      },
       "I2cDeviceHelpers/1.0.0": {
         "type": "project",
         "framework": "UAP,Version=v10.0.17763",
@@ -3564,6 +3579,21 @@
         },
         "runtime": {
           "bin/placeholder/BoschDevices.dll": {}
+        }
+      },
+      "EventHubHelpers/1.0.0": {
+        "type": "project",
+        "framework": "UAP,Version=v10.0.17763",
+        "dependencies": {
+          "Microsoft.Azure.EventHubs": "2.2.1",
+          "Microsoft.NETCore.UniversalWindowsPlatform": "6.2.3",
+          "Newtonsoft.Json": "12.0.1"
+        },
+        "compile": {
+          "bin/placeholder/EventHubHelpers.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/EventHubHelpers.dll": {}
         }
       },
       "I2cDeviceHelpers/1.0.0": {
@@ -5542,6 +5572,21 @@
           "bin/placeholder/BoschDevices.dll": {}
         }
       },
+      "EventHubHelpers/1.0.0": {
+        "type": "project",
+        "framework": "UAP,Version=v10.0.17763",
+        "dependencies": {
+          "Microsoft.Azure.EventHubs": "2.2.1",
+          "Microsoft.NETCore.UniversalWindowsPlatform": "6.2.3",
+          "Newtonsoft.Json": "12.0.1"
+        },
+        "compile": {
+          "bin/placeholder/EventHubHelpers.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/EventHubHelpers.dll": {}
+        }
+      },
       "I2cDeviceHelpers/1.0.0": {
         "type": "project",
         "framework": "UAP,Version=v10.0.17763",
@@ -7518,6 +7563,21 @@
           "bin/placeholder/BoschDevices.dll": {}
         }
       },
+      "EventHubHelpers/1.0.0": {
+        "type": "project",
+        "framework": "UAP,Version=v10.0.17763",
+        "dependencies": {
+          "Microsoft.Azure.EventHubs": "2.2.1",
+          "Microsoft.NETCore.UniversalWindowsPlatform": "6.2.3",
+          "Newtonsoft.Json": "12.0.1"
+        },
+        "compile": {
+          "bin/placeholder/EventHubHelpers.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/EventHubHelpers.dll": {}
+        }
+      },
       "I2cDeviceHelpers/1.0.0": {
         "type": "project",
         "framework": "UAP,Version=v10.0.17763",
@@ -9449,6 +9509,21 @@
         },
         "runtime": {
           "bin/placeholder/BoschDevices.dll": {}
+        }
+      },
+      "EventHubHelpers/1.0.0": {
+        "type": "project",
+        "framework": "UAP,Version=v10.0.17763",
+        "dependencies": {
+          "Microsoft.Azure.EventHubs": "2.2.1",
+          "Microsoft.NETCore.UniversalWindowsPlatform": "6.2.3",
+          "Newtonsoft.Json": "12.0.1"
+        },
+        "compile": {
+          "bin/placeholder/EventHubHelpers.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/EventHubHelpers.dll": {}
         }
       },
       "I2cDeviceHelpers/1.0.0": {
@@ -11427,6 +11502,21 @@
           "bin/placeholder/BoschDevices.dll": {}
         }
       },
+      "EventHubHelpers/1.0.0": {
+        "type": "project",
+        "framework": "UAP,Version=v10.0.17763",
+        "dependencies": {
+          "Microsoft.Azure.EventHubs": "2.2.1",
+          "Microsoft.NETCore.UniversalWindowsPlatform": "6.2.3",
+          "Newtonsoft.Json": "12.0.1"
+        },
+        "compile": {
+          "bin/placeholder/EventHubHelpers.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/EventHubHelpers.dll": {}
+        }
+      },
       "I2cDeviceHelpers/1.0.0": {
         "type": "project",
         "framework": "UAP,Version=v10.0.17763",
@@ -13358,6 +13448,21 @@
         },
         "runtime": {
           "bin/placeholder/BoschDevices.dll": {}
+        }
+      },
+      "EventHubHelpers/1.0.0": {
+        "type": "project",
+        "framework": "UAP,Version=v10.0.17763",
+        "dependencies": {
+          "Microsoft.Azure.EventHubs": "2.2.1",
+          "Microsoft.NETCore.UniversalWindowsPlatform": "6.2.3",
+          "Newtonsoft.Json": "12.0.1"
+        },
+        "compile": {
+          "bin/placeholder/EventHubHelpers.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/EventHubHelpers.dll": {}
         }
       },
       "I2cDeviceHelpers/1.0.0": {
@@ -15334,6 +15439,21 @@
         },
         "runtime": {
           "bin/placeholder/BoschDevices.dll": {}
+        }
+      },
+      "EventHubHelpers/1.0.0": {
+        "type": "project",
+        "framework": "UAP,Version=v10.0.17763",
+        "dependencies": {
+          "Microsoft.Azure.EventHubs": "2.2.1",
+          "Microsoft.NETCore.UniversalWindowsPlatform": "6.2.3",
+          "Newtonsoft.Json": "12.0.1"
+        },
+        "compile": {
+          "bin/placeholder/EventHubHelpers.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/EventHubHelpers.dll": {}
         }
       },
       "I2cDeviceHelpers/1.0.0": {
@@ -24114,6 +24234,11 @@
       "path": "../BoschDevices/BoschDevices.csproj",
       "msbuildProject": "../BoschDevices/BoschDevices.csproj"
     },
+    "EventHubHelpers/1.0.0": {
+      "type": "project",
+      "path": "../EventHubHelpers/EventHubHelpers.csproj",
+      "msbuildProject": "../EventHubHelpers/EventHubHelpers.csproj"
+    },
     "I2cDeviceHelpers/1.0.0": {
       "type": "project",
       "path": "../I2cDeviceHelpers/I2cDeviceHelpers.csproj",
@@ -24123,6 +24248,7 @@
   "projectFileDependencyGroups": {
     "UAP,Version=v10.0.17763": [
       "BoschDevices >= 1.0.0",
+      "EventHubHelpers >= 1.0.0",
       "Microsoft.Azure.EventHubs >= 2.2.1",
       "Microsoft.NETCore.UniversalWindowsPlatform >= 6.2.3",
       "Newtonsoft.Json >= 12.0.1"
@@ -24161,6 +24287,9 @@
           "projectReferences": {
             "C:\\Users\\danie\\OneDrive\\Documents\\GitHub\\WeatherStation\\BoschDevices\\BoschDevices.csproj": {
               "projectPath": "C:\\Users\\danie\\OneDrive\\Documents\\GitHub\\WeatherStation\\BoschDevices\\BoschDevices.csproj"
+            },
+            "C:\\Users\\danie\\OneDrive\\Documents\\GitHub\\WeatherStation\\EventHubHelpers\\EventHubHelpers.csproj": {
+              "projectPath": "C:\\Users\\danie\\OneDrive\\Documents\\GitHub\\WeatherStation\\EventHubHelpers\\EventHubHelpers.csproj"
             }
           }
         }
